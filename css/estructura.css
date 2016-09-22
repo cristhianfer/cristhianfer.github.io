@@ -1,0 +1,43 @@
+/*contenido de la pagina index.html*/
+
+
+html,body {
+    height:100%;
+}
+
+header {
+        
+    display:block;
+    background:#fff;
+    padding:10px 0px;
+}
+section {
+    width: 75%;
+    background: #fff;
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+}
+
+aside {
+    float: right;
+    border: 0px solid ;
+    width: 18%;
+    border: 0px solid ;
+    /*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+    /*visibility: hidden;*/
+}
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 40px; 
+    padding:5px 0px;
+    clear: both;
+    background: #006680;
+    text-align: center;
+    color: #fff;
+}
+figure {
+    display: table; margin: 0 auto;
+}
